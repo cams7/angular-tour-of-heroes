@@ -2,11 +2,11 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
  
-import { Hero }         from '../hero';
+import { Hero }         from '../../common/model/hero';
 import { HeroService }  from '../hero.service';
 
 @Component({
-  selector: 'app-hero-detail',
+  selector: 'hero-detail',
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.css']
 })

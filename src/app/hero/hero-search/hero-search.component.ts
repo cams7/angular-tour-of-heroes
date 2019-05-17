@@ -5,11 +5,11 @@ import {
   debounceTime, distinctUntilChanged, switchMap
 } from 'rxjs/operators';
 
-import { Hero } from '../hero';
+import { Hero } from '../../common/model/hero';
 import { HeroService } from '../hero.service';
 
 @Component({
-  selector: 'app-hero-search',
+  selector: 'hero-search',
   templateUrl: './hero-search.component.html',
   styleUrls: ['./hero-search.component.css']
 })
