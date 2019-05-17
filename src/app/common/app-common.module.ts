@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MessageComponent } from './message/message.component';
-import { MessageService } from './message/message.service';
 
 @NgModule({  
   declarations: [
@@ -12,7 +11,6 @@ import { MessageService } from './message/message.service';
     CommonModule
   ], 
   providers: [
-    MessageService
   ],
   exports: [
     MessageComponent
